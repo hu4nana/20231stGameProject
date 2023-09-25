@@ -126,6 +126,7 @@ public class Character : MonoBehaviour
         stats.damage = value;
     }
     /*============================================================================================*/
+    // 넉백 받는 정도
     public int GetKnock()
     {
         return stats.knock;
