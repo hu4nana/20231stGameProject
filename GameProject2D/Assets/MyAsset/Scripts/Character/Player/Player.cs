@@ -22,7 +22,6 @@ public class Player : Character
     bool isDash;
     bool isWallSlide = false;
     bool isAttack;
-    bool isDamaged;
 
     //Skills skill;
 

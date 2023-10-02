@@ -17,7 +17,9 @@ public class Monster : Character
 
     protected GameObject target=null;
 
+    // 패턴이 끝났는가?
     protected bool isEnd = false;
+    // 대상을 추적 중인가?
     protected bool isTrace = false;
     protected float traceTimer = 0;
     protected int traceTime = 0;
